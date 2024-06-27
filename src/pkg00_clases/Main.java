@@ -6,6 +6,9 @@ public class Main {
         // Creamos un objeto Galleta:  Declaración = Instancia;
         Galleta galleta1 = new Galleta();
         Galleta galleta2 = new Galleta();
+        Galleta galleta3 = new Galleta("especial", "redonda", "vainilla", "beige");
+        Galleta galleta4 = new Galleta("Integral", "avena");
+        Galleta galleta5 = new Galleta(galleta3);
 
         galleta1.setForma("cuadrada");
         galleta1.setColor("marrón");
@@ -35,6 +38,9 @@ public class Main {
         } else {
             System.out.println("Son iguales, pero distintas galletas.");
         }
+        System.out.println(galleta3.toString());
+        System.out.println(galleta4);
+        System.out.println(galleta5);
 
     }
 }
