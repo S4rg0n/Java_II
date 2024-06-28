@@ -1,4 +1,4 @@
-package pkg01_metodos.ejercicios_metodos;
+package pkg01_metodos.pkg01a_ejercicios_metodos;
 //    1) Crear un programa que haga 10 siguiente:
 //    Crear una clase llamada "Automóvil", esta clase contará con los siguientes características:
 

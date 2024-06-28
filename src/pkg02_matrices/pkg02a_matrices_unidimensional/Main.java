@@ -1,4 +1,4 @@
-package pkg02_matrices_unidimensionales;
+package pkg02_matrices.pkg02a_matrices_unidimensional;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Main {
             System.out.print(i==9 ? i+"\n" : i+", ");
         }
         //Otra forma de recorrer un array es el for-each
-        System.out.println("Lectura e impresión con for-each:");
+        System.out.println("\nLectura e impresión con for-each:");
         for (int num : listaNums){
             if (num == listaNums[listaNums.length-1]) {
                 System.out.println(num+"\n");

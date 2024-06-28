@@ -1,4 +1,4 @@
-package pkg01_metodos.ejercicios_metodos;
+package pkg01_metodos.pkg01a_ejercicios_metodos;
 
 import javax.swing.*;
 
