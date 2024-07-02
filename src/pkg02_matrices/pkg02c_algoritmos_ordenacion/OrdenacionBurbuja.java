@@ -16,7 +16,7 @@ public class OrdenacionBurbuja {
         }
     }
 
-    public static void burbuja(int[] matriz){
+    private static void burbuja(int[] matriz){
         int cambio;
         int comparacion = 1;
         System.out.println("\nProceso de ordenación: ");

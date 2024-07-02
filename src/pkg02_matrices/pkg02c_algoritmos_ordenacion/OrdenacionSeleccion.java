@@ -18,9 +18,15 @@ public class OrdenacionSeleccion {
 
     private static void seleccion(int[] matriz) {
         for (int i = 0; i < matriz.length; i++) {
-            int reemplazo = matriz[i];
             for (int j = i+1 ; j < matriz.length; j++) {
-                
+                if (matriz[i] > matriz[j]) {
+                    int reemplazo = matriz[j];
+                    matriz[j] = matriz[i];
+                    matriz[i] = reemplazo;
+                }
+            }
+            for (int elemento : matriz){
+                System.out.print(elemento==matriz[matriz.length-1] ? elemento+"\n" : elemento+", ");
             }
         }
     }
