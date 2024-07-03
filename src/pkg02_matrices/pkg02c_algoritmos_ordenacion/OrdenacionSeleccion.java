@@ -16,7 +16,7 @@ public class OrdenacionSeleccion {
         }
     }
 
-    private static void seleccion(int[] matriz) {
+    public static int[] seleccion(int[] matriz) {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = i+1 ; j < matriz.length; j++) {
                 if (matriz[i] > matriz[j]) {
@@ -29,5 +29,6 @@ public class OrdenacionSeleccion {
                 System.out.print(elemento==matriz[matriz.length-1] ? elemento+"\n" : elemento+", ");
             }
         }
+        return matriz;
     }
 }
