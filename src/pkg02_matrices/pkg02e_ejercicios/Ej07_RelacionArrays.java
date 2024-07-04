@@ -17,7 +17,7 @@ public class Ej07_RelacionArrays {
         char[] sexo = {'M','M','M','H'};
         System.out.println();
         for (int i = 0; i < 4; i++) {
-            System.out.println(nombres[i]+", "+edad[i]+"años, "+((sexo[i] == 'M')?"Mujer":"Hombre")+".");
+            System.out.println(nombres[i]+", "+edad[i]+" años, "+((sexo[i] == 'M')?"Mujer":"Hombre")+".");
         }
 
     }
