@@ -1,7 +1,5 @@
 package pkg02_matrices.pkg02e_ejercicios;
 
-import javax.swing.*;
-
 public class Ej02_Array100sumaYmedia {
     public static void main(String[] args) {
 /*
