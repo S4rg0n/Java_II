@@ -5,7 +5,6 @@ public class CocheTurismo extends Coche{
     private int nivelComodidad;
 
     // Getters y setters:
-
     public int getNivelComodidad() {
         return nivelComodidad;
     }
