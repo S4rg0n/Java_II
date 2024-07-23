@@ -19,6 +19,8 @@ public class Main {
         coche.setMatricula("3452SFE");
         System.out.println(coche.getMarca()+" "+coche.getModelo()+" con matrícula "+coche.getMatricula());
         coche.ajustarAsiento();
+        coche = new Coche("GLK", 220, "Mercedes", "3774JKS", "rojo", 231343);
+        System.out.println(coche.toString());;
 
         CocheTodoterreno todoterreno = new CocheTodoterreno();
         todoterreno.ajustarAsiento();

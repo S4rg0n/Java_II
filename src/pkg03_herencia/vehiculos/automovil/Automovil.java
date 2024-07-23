@@ -4,19 +4,22 @@ public class Automovil {
     // Atributos:
     protected String marca;
     protected String matricula;
+    protected int velocidadMaxima;
 
     // Constante:
-    final int MUM_BASTIDOR;
+    protected final int MUM_BASTIDOR;
 
-    // Creamos un constructor vacío:
+    // Creamos constructores:
     public Automovil(){
         MUM_BASTIDOR = 341234;
+        velocidadMaxima = 120;
     }
 
     public Automovil(int MUM_BASTIDOR, String marca, String matricula) {
         this.MUM_BASTIDOR = MUM_BASTIDOR;
         this.marca = marca;
         this.matricula = matricula;
+        velocidadMaxima = 120;
     }
 
     // Getters y setters:
@@ -41,5 +44,15 @@ public class Automovil {
     }
     public void frenar(){
         System.out.println("Frenando.");
+    }
+
+    @Override
+    public String toString() {
+        return "Automovil{" +
+                "marca='" + marca + '\'' +
+                ", matricula='" + matricula + '\'' +
+                ", velocidadMaxima=" + velocidadMaxima +
+                ", MUM_BASTIDOR=" + MUM_BASTIDOR +
+                '}';
     }
 }
