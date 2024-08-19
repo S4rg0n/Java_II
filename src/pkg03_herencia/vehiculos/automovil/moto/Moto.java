@@ -14,4 +14,16 @@ public class Moto extends Automovil {
     public void setMarchas(int marchas) {
         this.marchas = marchas;
     }
+
+
+    @Override
+    public String toString() {
+        return "Moto{" +
+                "marchas=" + marchas +
+                ", marca='" + marca + '\'' +
+                ", matricula='" + matricula + '\'' +
+                ", velocidadMaxima=" + velocidadMaxima +
+                ", MUM_BASTIDOR=" + MUM_BASTIDOR +
+                '}';
+    }
 }
