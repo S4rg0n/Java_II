@@ -1,9 +1,14 @@
 package pkg04_abstraccion.clases;
 
-public abstract class Rectangulo extends Figuras{
+public class Rectangulo extends Figuras{
+
+    public Rectangulo(double base, double altura, String nombre) {
+        super(base, altura, nombre);
+    }
 
     @Override
-    public double calcularArea(double base, double altura){
-        return (base*altura);
+    public double calacularArea(double base, double altura) {
+        double area = (base * altura);
+        return area;
     }
 }
